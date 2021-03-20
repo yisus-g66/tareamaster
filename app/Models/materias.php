@@ -9,5 +9,5 @@ class materias extends Model
 {
     use HasFactory;
     protected $table = "Materia";
-    protected $fillabele = ['id', 'name', 'state', 'created_at', 'updated_at']
+    protected $fillabele = ['id', 'name', 'state', 'created_at', 'updated_at'];
 }
